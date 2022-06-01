@@ -69,7 +69,7 @@ namespace SmartSchool.API.Controllers
             return Ok(aluno);
         }
 
-
+         
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, Aluno aluno)
         {
